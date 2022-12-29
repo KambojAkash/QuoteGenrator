@@ -27,7 +27,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 1rem;
+        padding: 1.5rem;
         text-align: center;
         box-shadow: 0 0 5px 5px #091d35;
         border-radius: 10px;
@@ -75,22 +75,24 @@
     
     @media (max-width:680px) {
         .box {
-            width: 80%;
-            height: 330px;
+            width: 90%;
+            height: 450px;
+            /* overflow: auto; */
         }
         .quote-box {
             height: 80%;
+            width: 100%;
         }
     }
     
     @media (max-width:280px) {
         .box {
-            width: 80w;
-            height: 45vh;
+            width: 90%;
+            height: 80vh;
         }
         .quote-box {
             height: 80%;
             width: 90%;
-            /* background-color: red; */
+           
         }
     }
